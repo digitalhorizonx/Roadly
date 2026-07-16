@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+
+  /* Brand palette from the Roadly logo: vivid orange + deep navy ink */
+  --color-brand-50: #fff6ec;
+  --color-brand-100: #ffead3;
+  --color-brand-200: #fed3a5;
+  --color-brand-300: #fdb56d;
+  --color-brand-400: #f99a3e;
+  --color-brand-500: #f58220;
+  --color-brand-600: #e56c10;
+  --color-brand-700: #be540e;
+  --color-brand-800: #974313;
+  --color-brand-900: #7a3813;
+
+  --color-ink-50: #f6f8fa;
+  --color-ink-100: #edf1f5;
+  --color-ink-200: #dbe2ea;
+  --color-ink-300: #c0cbd8;
+  --color-ink-400: #92a1b3;
+  --color-ink-500: #64758a;
+  --color-ink-600: #4b5b6e;
+  --color-ink-700: #384657;
+  --color-ink-800: #283544;
+  --color-ink-900: #1d2733;
+  --color-ink-950: #131b25;
+
+  --animate-fade-up: fade-up 0.6s ease-out both;
+
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(12px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    @apply bg-white text-ink-800 antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    @apply bg-brand-100 text-brand-900;
+  }
+
+  /* Respect users who prefer reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer utilities {
+  /* Reserve space for the sticky mobile call bar */
+  .pb-safe-call {
+    padding-bottom: calc(4.5rem + env(safe-area-inset-bottom));
+  }
+}
