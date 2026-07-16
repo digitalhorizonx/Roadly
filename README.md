@@ -65,14 +65,13 @@ Content strings support `{city}`, `{state}`, `{stateAbbr}`, `{phone}`,
 
 ## Before launch
 
-1. **Phone number** — replace the placeholder in `src/data/site.ts`
-   (use a call-tracking number to attribute calls to organic search).
-2. **Address** — replace the placeholder NAP in `src/data/site.ts`; keep it
-   byte-identical to the Google Business Profile listing.
-3. **Domain** — set `NEXT_PUBLIC_SITE_URL` (see `.env.example`).
-4. **Contact form** — set `CONTACT_WEBHOOK_URL` to receive submissions
+1. **Address** — replace the placeholder NAP in `src/data/site.ts`; keep it
+   byte-identical to the Google Business Profile listing. (The phone number
+   is already set to the business line.)
+2. **Domain** — set `NEXT_PUBLIC_SITE_URL` (see `.env.example`).
+3. **Contact form** — set `CONTACT_WEBHOOK_URL` to receive submissions
    (Zapier/Make/Slack/own endpoint); unset, submissions log to the server.
-5. Create/claim the **Google Business Profile** (service-area business,
+4. Create/claim the **Google Business Profile** (service-area business,
    24 hours, all 9 services listed) and submit the sitemap in Search Console.
 
 ## Development

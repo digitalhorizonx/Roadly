@@ -146,7 +146,7 @@ export default async function ContactPage({ searchParams }: PageProps) {
                   type="tel"
                   required
                   autoComplete="tel"
-                  placeholder="(312) 555-0000"
+                  placeholder="(773) 555-0000"
                 />
               </div>
               <div className="sm:col-span-2">

@@ -4,29 +4,29 @@
   --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji";
 
-  /* Brand palette — neutral premium base with a high-visibility action color */
-  --color-brand-50: #fff7ed;
-  --color-brand-100: #ffedd5;
-  --color-brand-200: #fed7aa;
-  --color-brand-300: #fdba74;
-  --color-brand-400: #fb923c;
-  --color-brand-500: #f97316;
-  --color-brand-600: #ea580c;
-  --color-brand-700: #c2410c;
-  --color-brand-800: #9a3412;
-  --color-brand-900: #7c2d12;
+  /* Brand palette from the Roadly logo: vivid orange + deep navy ink */
+  --color-brand-50: #fff6ec;
+  --color-brand-100: #ffead3;
+  --color-brand-200: #fed3a5;
+  --color-brand-300: #fdb56d;
+  --color-brand-400: #f99a3e;
+  --color-brand-500: #f58220;
+  --color-brand-600: #e56c10;
+  --color-brand-700: #be540e;
+  --color-brand-800: #974313;
+  --color-brand-900: #7a3813;
 
-  --color-ink-50: #fafafa;
-  --color-ink-100: #f4f4f5;
-  --color-ink-200: #e4e4e7;
-  --color-ink-300: #d4d4d8;
-  --color-ink-400: #a1a1aa;
-  --color-ink-500: #71717a;
-  --color-ink-600: #52525b;
-  --color-ink-700: #3f3f46;
-  --color-ink-800: #27272a;
-  --color-ink-900: #18181b;
-  --color-ink-950: #09090b;
+  --color-ink-50: #f6f8fa;
+  --color-ink-100: #edf1f5;
+  --color-ink-200: #dbe2ea;
+  --color-ink-300: #c0cbd8;
+  --color-ink-400: #92a1b3;
+  --color-ink-500: #64758a;
+  --color-ink-600: #4b5b6e;
+  --color-ink-700: #384657;
+  --color-ink-800: #283544;
+  --color-ink-900: #1d2733;
+  --color-ink-950: #131b25;
 
   --animate-fade-up: fade-up 0.6s ease-out both;
 

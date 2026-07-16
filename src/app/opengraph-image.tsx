@@ -17,40 +17,37 @@ export default function OpenGraphImage() {
           flexDirection: "column",
           justifyContent: "center",
           padding: "80px",
-          background: "linear-gradient(135deg, #09090b 0%, #18181b 100%)",
+          background: "linear-gradient(135deg, #131b25 0%, #1d2733 100%)",
           color: "white",
           fontFamily: "sans-serif",
         }}
       >
-        <div style={{ display: "flex", alignItems: "center", gap: 24 }}>
-          <div
-            style={{
-              width: 88,
-              height: 88,
-              borderRadius: 24,
-              background: "#f97316",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              fontSize: 56,
-              fontWeight: 700,
-              color: "#09090b",
-            }}
-          >
-            R
+        <div style={{ display: "flex", alignItems: "flex-end" }}>
+          <div style={{ fontSize: 110, fontWeight: 800, fontStyle: "italic", color: "#ffffff" }}>
+            Road
           </div>
-          <div style={{ fontSize: 72, fontWeight: 700 }}>{site.name}</div>
+          <div style={{ fontSize: 110, fontWeight: 800, fontStyle: "italic", color: "#f58220" }}>
+            ly
+          </div>
         </div>
-        <div style={{ marginTop: 40, fontSize: 40, color: "#d4d4d8" }}>
+        <div
+          style={{
+            display: "flex",
+            marginTop: 24,
+            fontSize: 38,
+            color: "#dbe2ea",
+            letterSpacing: 2,
+          }}
+        >
           {site.tagline}
         </div>
         <div
           style={{
             display: "flex",
-            marginTop: 28,
-            fontSize: 30,
-            color: "#f97316",
-            fontWeight: 600,
+            marginTop: 32,
+            fontSize: 32,
+            color: "#f58220",
+            fontWeight: 700,
           }}
         >
           {`${site.phone.display} · Open 24/7`}
