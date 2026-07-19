@@ -151,7 +151,7 @@ export default async function ContactPage({ searchParams }: PageProps) {
               </div>
               <div className="sm:col-span-2">
                 <label htmlFor="location" className="mb-1.5 block text-sm font-medium text-ink-800">
-                  Location <span className="font-normal text-ink-400">(optional)</span>
+                  Location <span className="font-normal text-ink-500">(optional)</span>
                 </label>
                 <Input
                   id="location"

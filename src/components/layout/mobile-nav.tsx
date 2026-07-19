@@ -50,7 +50,7 @@ export function MobileNav({ items }: { items: NavItem[] }) {
             <li className="mt-2 border-t border-ink-100 pt-3">
               <a
                 href={`tel:${site.phone.e164}`}
-                className="flex items-center gap-2 rounded-lg bg-brand-600 px-4 py-3 font-semibold text-white"
+                className="flex items-center gap-2 rounded-lg bg-brand-500 px-4 py-3 font-semibold text-ink-950"
               >
                 <Phone className="size-4" aria-hidden />
                 Call {site.phone.display}

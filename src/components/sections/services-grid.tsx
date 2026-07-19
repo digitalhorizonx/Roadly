@@ -30,7 +30,7 @@ export function ServicesGrid({ city }: { city: CityData }) {
             <p className="mt-2 text-sm leading-relaxed text-ink-600">
               {service.excerpt}
             </p>
-            <p className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-brand-600">
+            <p className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-brand-700">
               {service.shortName} in {city.name}
               <ArrowRight
                 className="size-4 transition-transform group-hover:translate-x-0.5"

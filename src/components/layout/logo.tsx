@@ -66,16 +66,12 @@ export function LogoMark({ className }: { className?: string }) {
 
 export function Logo({ className }: { className?: string }) {
   return (
-    <Link
-      href="/"
-      aria-label="Roadly — 24/7 roadside assistance, home"
-      className={cn("inline-flex items-center gap-2.5", className)}
-    >
+    <Link href="/" className={cn("inline-flex items-center gap-2.5", className)}>
       <LogoMark className="size-9" />
       <span className="flex flex-col leading-none">
         <span className="text-xl font-extrabold italic tracking-tight">
           <span className="text-ink-900">Road</span>
-          <span className="text-brand-500">ly</span>
+          <span className="text-brand-600">ly</span>
         </span>
         <span className="mt-1 text-[0.5rem] font-semibold uppercase tracking-[0.14em] text-ink-500">
           24/7 Roadside Assistance

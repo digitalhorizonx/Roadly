@@ -14,7 +14,7 @@ export const site = {
   tagline: "24/7 Roadside Assistance You Can Count On",
   description:
     "Roadly provides fast, professional 24/7 roadside assistance — towing, jump starts, tire changes, fuel delivery, lockouts and more.",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.roadly.com",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://roadly.digitalhorizonx.com",
   phone: {
     display: "(773) 322-5637",
     e164: "+17733225637",
