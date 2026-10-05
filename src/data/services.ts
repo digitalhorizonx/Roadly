@@ -391,7 +391,7 @@ export const services: ServiceData[] = [
     h1: "Mobile Car Battery Replacement in {city}, {stateAbbr}",
     heroLead:
       "Skip the parts store. We bring the correct battery to you in {city} and install it on the spot — usually within {arrival}.",
-    metaTitle: "Car Battery Replacement {city}, {stateAbbr} | Mobile Install | Roadly",
+    metaTitle: "Mobile Car Battery Replacement {city}, {stateAbbr} | Roadly",
     metaDescription:
       "Mobile car battery replacement in {city}. We deliver & install the right battery at your home, office or roadside — 24/7. Call {phone}.",
     overview: [
@@ -745,7 +745,7 @@ export const services: ServiceData[] = [
     h1: "Car Lockout Service in {city}, {stateAbbr}",
     heroLead:
       "Keys locked in your car in {city}? We open doors without damage — usually within {arrival} of your call.",
-    metaTitle: "Car Lockout Service {city}, {stateAbbr} | Locked Keys in Car | Roadly",
+    metaTitle: "Car Lockout {city}, {stateAbbr} | Locked Keys in Car | Roadly",
     metaDescription:
       "Locked keys in your car in {city}? Fast, damage-free car lockout service, 24/7. Avg. {arrival} arrival. Call {phone} — we'll get you in.",
     overview: [
@@ -863,7 +863,7 @@ export const services: ServiceData[] = [
     h1: "Vehicle Recovery Service in {city}, {stateAbbr}",
     heroLead:
       "Off the road in {city}? Our winch-equipped trucks pull vehicles from snow, mud and ditches — carefully, 24/7.",
-    metaTitle: "Vehicle Recovery {city}, {stateAbbr} | Winch-Out Service 24/7 | Roadly",
+    metaTitle: "Vehicle Recovery {city}, {stateAbbr} | 24/7 Winch-Out | Roadly",
     metaDescription:
       "Stuck in snow, mud or a ditch near {city}? Professional winch-out & vehicle recovery, 24/7, without added damage. Call {phone} now.",
     overview: [
@@ -981,7 +981,7 @@ export const services: ServiceData[] = [
     h1: "Mobile Vehicle Inspection in {city}, {stateAbbr}",
     heroLead:
       "Buying a used car in {city}? Get an independent mobile inspection before you pay — we come to the seller.",
-    metaTitle: "Vehicle Inspection {city}, {stateAbbr} | Pre-Purchase Checks | Roadly",
+    metaTitle: "Vehicle Inspection {city}, {stateAbbr} | Pre-Purchase | Roadly",
     metaDescription:
       "Mobile vehicle inspection in {city} — independent pre-purchase & safety checks at the seller's location. Book yours: call {phone}.",
     overview: [

@@ -10,7 +10,7 @@ export function StickyCallBar() {
     <div className="fixed inset-x-0 bottom-0 z-50 border-t border-ink-200 bg-white/95 p-3 pb-[calc(0.75rem+env(safe-area-inset-bottom))] backdrop-blur-md md:hidden">
       <a
         href={`tel:${site.phone.e164}`}
-        className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-brand-600 text-base font-semibold text-white shadow-md active:bg-brand-700"
+        className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-brand-500 text-base font-semibold text-ink-950 shadow-md active:bg-brand-600"
       >
         <Phone className="size-5" aria-hidden />
         Call Now — {site.phone.display}

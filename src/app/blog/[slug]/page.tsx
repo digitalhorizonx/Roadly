@@ -53,7 +53,7 @@ export default async function ArticlePage({ params }: PageProps) {
       <article className="bg-white">
         <Container className="max-w-3xl py-14 sm:py-20">
           <Breadcrumbs crumbs={crumbs} />
-          <p className="mt-8 text-sm font-semibold uppercase tracking-wide text-brand-600">
+          <p className="mt-8 text-sm font-semibold uppercase tracking-wide text-brand-700">
             {category?.name}
           </p>
           <h1 className="mt-3 text-4xl font-semibold tracking-tight text-ink-950">

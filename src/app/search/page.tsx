@@ -89,7 +89,7 @@ export default async function SearchPage({ searchParams }: PageProps) {
           {q && results.length === 0 && (
             <p className="text-ink-600">
               No matches for “{q}”. Not sure what you need?{" "}
-              <Link href={routes.services} className="font-medium text-brand-600 hover:underline">
+              <Link href={routes.services} className="font-medium text-brand-700 hover:underline">
                 Browse all services
               </Link>{" "}
               or just call — the dispatcher will figure it out with you.
